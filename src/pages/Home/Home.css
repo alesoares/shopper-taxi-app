@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-shadow: #000 2px, 2px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFDD00;
+    padding-top: 1.5%;
+}
+
+.container { border: 5px red solid;
+    display: flex;
+    height: 810px;   
+    padding-left: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/img/shopper-taxi-app-background.png");
+}
+
+.login{ border: 5px rgb(0, 68, 255) solid;
+    display: flex;
+    margin: .5%;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    color: #FFDD00;    
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 5%;
+}
+
+.login-form h1 {
+    color: #FFF;    
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-form .input-field {
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.input-field input {
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    outline: none;
+    border-radius: 40px;
+    padding: 20px 25px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    
+}
+
+.input-field input::placeholder {
+    color: #FFF;
+    
+}
+.input-field .icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #FFF;
+}
+
+.login-form .recall-forget {
+    display: flex;
+    font-size: 14.5px;
+    flex-direction: row;
+    margin: -15px 0 15px;
+    padding: 0.5%;
+    justify-content: space-between;
+}
+.recall-forget{
+    border: 2px solid rgba(255, 0, 0, 0.12);
+}
+
+.recall-forget label {
+    color: #FFF;
+}
+
+.recall-forget input { 
+    margin-right: 5px;
+}
+
+.recall-forget a, 
+.signup-link p a { 
+    color: #FFF;
+    text-decoration: none;    
+}
+
+.recall-forget a:hover, 
+.signup-link p a:hover { 
+    text-decoration: underline;    
+}
+
+.login-form button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+    border-radius: 40px;
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .signup-link {
+    font-size: 15px;
+    text-shadow: none;
+    text-align: center;
+    margin: 20px 0 10px;
+    color: #FFF;
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+

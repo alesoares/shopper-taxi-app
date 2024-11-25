@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+CENÁRIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vamos desenvolver uma aplicação conceito onde o usuário poderá solicitar uma viagem em carro particular de um ponto A até um ponto B. 
+Ele poderá escolher entre algumas opções de motoristas e valores e confirmar a viagem. Depois também poderá listar o histórico das viagens realizadas. 
+O diagrama abaixo mostra a estrutura geral da aplicação.
 
-## Available Scripts
+DEFINIÇÕES DO BACKEND
 
-In the project directory, you can run:
+O backend deverá ser uma API Rest em NodeJS e Typescript, e terá os seguintes endpoints:
 
-### `npm start`
+POST /ride/estimate
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+descrição aqui...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ATENÇÃO: 
 
-### `npm test`
+Você precisará obter uma chave de acesso para usar a funcionalidade. Pode ser necessário adicionar um cartão para obter a chave, 
+mas um crédito do Google será automaticamente aplicado e cobrirá o uso necessário para testar. Não realize despesas financeiras para realizar esse teste.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PATCH /ride/confirm
 
-### `npm run build`
+descrição aqui...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+GET /ride/{customer_id}?driver_id={id do motorista}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+descrição aqui...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+DEFINIÇÕES DO FRONTEND:
 
-### `npm run eject`
+O Frontend deverá ser uma Single Page Application em React e TypeScript e terá as seguintes telas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Solicitação de viagem
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Opções de viagem
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Histórico de viagens
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tratamento de erros

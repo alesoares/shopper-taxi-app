@@ -1,14 +1,20 @@
 {
   "name": "shopper-taxi-app",
   "version": "0.1.0",
+  "description": "Alessandro Soares <alesoares1975@gmail.com>",
   "private": true,
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "express": "^4.21.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^7.0.1",
     "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.7.7",
+    "styled-components": "^6.1.13",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.7.2"
   }
 }
