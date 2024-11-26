@@ -1,4 +1,4 @@
-import { PrimaryGeneratedColumnType } from './../../../node_modules/typeorm/driver/types/ColumnTypes.d';
+import { PrimaryGeneratedColumnType } from 'typeorm/driver/types/ColumnTypes.js';
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()

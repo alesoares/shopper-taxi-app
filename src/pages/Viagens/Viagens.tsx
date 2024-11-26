@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import './Home.css';
+import './Viagens.css';
 import '../../pages/pages.css';
 import { api } from '../../services/URL';
 import { useEffect, useState } from 'react';
@@ -9,7 +9,7 @@ import { SiAdobeindesign } from "react-icons/si";
 import { FaCaretLeft, FaCaretRight, FaTaxi, FaUser } from 'react-icons/fa6';
 
 
-export const Home = () => {
+export const Viagens = () => {
 
   /*  useEffect(() => {
         loadMotoristas();
@@ -56,11 +56,15 @@ export const Home = () => {
                  
       </div>
     
+    
+      
     </div>
+    
+     
     
   );
 };
 
-export default Home;
+export default Viagens;
 
 

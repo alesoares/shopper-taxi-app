@@ -12,6 +12,8 @@
       }
     ],
     "manifest-file-extension": "off",
-    "compat-api/css": "off"
+    "compat-api/css": "off",
+    "button-type": "off",
+    "axe/text-alternatives": "off"
   }
 }

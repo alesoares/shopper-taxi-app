@@ -1,12 +1,16 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React from 'react';
-import './pages/App/App.css';
-import { FaLock, FaUser } from 'react-icons/fa6';
+//import React from 'react';
+import { App } from '../pages/App/App.tsx';
+//import './pages/App/App.css';
+//import '../pages/App/App.tsx';
+//import './components/App';
+//import { FaLock, FaUser } from 'react-icons/fa6';
 //import { useState } from "react";
 
-export const App = () => {
+//export const App = () => {
 
     /*const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");*/
@@ -18,9 +22,9 @@ export const App = () => {
      console.log(username);
     console.log(password);
     */
-    return (
+    //return ()
 
-        <div className="container">
+        /*<div className="container">
 
             <div className="login">
 
@@ -57,9 +61,9 @@ export const App = () => {
 
             </div>
 
-        </div>
+        </div>*
 
-    );
-}
+    );*/
+//}
 
 export default App;
